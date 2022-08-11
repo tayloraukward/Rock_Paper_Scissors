@@ -1,0 +1,47 @@
+body {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: fantasy;
+    font-weight: bold;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 700px;
+    gap: 24px;
+}
+.options-container {
+    display: flex;
+   justify-content: space-between;
+    
+}
+#scores {
+    display: flex;
+    justify-content: space-evenly;
+}
+#restart-cont {
+    display: flex;
+    justify-content: center;
+}
+.image {
+    height: 125px;
+    width: 150px;
+}
+button {
+    background-color: white;
+    padding: 16px;
+    border: solid black 3px;
+    font-family: fantasy;
+}
+.header {
+    font-size: 32px;
+    font-weight: bolder;
+    text-align: center;
+}
