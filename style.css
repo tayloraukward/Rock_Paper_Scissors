@@ -22,6 +22,9 @@ body {
    justify-content: space-between;
     
 }
+button:hover {
+    border: solid red 3px;
+}
 #scores {
     display: flex;
     justify-content: space-evenly;
